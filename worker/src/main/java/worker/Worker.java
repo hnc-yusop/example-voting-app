@@ -76,6 +76,7 @@ class Worker {
         } catch (SQLException e) {
           System.err.println("Waiting for db");
           sleep(1000);
+          throw e;
         }
       }
 
