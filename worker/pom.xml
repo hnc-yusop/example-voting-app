@@ -29,6 +29,8 @@
 <dependency>
   <groupId>redis.clients</groupId>
   <artifactId>jedis</artifactId>
+          <type>jar</type>
+        <scope>compile</scope>
 </dependency>
 
     <dependency>
